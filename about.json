@@ -1,9 +1,8 @@
 {
   "name": "YoYoExpert Dark",
-  "about_url": "",
-  "license_url": "",
+  "about_url": "https://github.com/stublag/yoyoexpert-dark",
   "color_schemes": {
-    "Dark": {
+    "Dark Scheme": {
       "primary": "ffffff",
       "secondary": "232323",
       "tertiary": "DF0C18",
