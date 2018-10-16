@@ -3,9 +3,9 @@
   "about_url": "https://github.com/stublag/yoyoexpert-dark",
   "assets": {
     "YoYoExpert-512px": "assets/YoYoExpert-512px.jpg",
-    "YoYoExpert-Apple-Touch-Icon": "assets/YoYoExpert-Apple-Touch-Icon.jpg",
-    "YoYoExpert-Discourse-Logo": "assets/YoYoExpert-Discourse-Logo.jpg",
-    "YoYoExpert-Icon-96": "assets/YoYoExpert-Icon-96.jpg"
+    "YoYoExpert-Apple-Touch-Icon": "assets/YoYoExpert-Apple-Touch-Icon.png",
+    "YoYoExpert-Discourse-Logo": "assets/YoYoExpert-Discourse-Logo.png",
+    "YoYoExpert-Icon-96": "assets/YoYoExpert-Icon-96.png"
   },
   "color_schemes": {
     "Dark Scheme": {
