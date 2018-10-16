@@ -1,4 +1,4 @@
-## Sam's simple discourse theme
+## YoYoExpert Dark
 
-More info at: https://meta.discourse.org/t/sams-personal-minimal-topic-list-design/23552?u=sam
+This is a dark Discourse theme for the YoYoExpert forums.
 
