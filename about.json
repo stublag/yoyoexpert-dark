@@ -1,0 +1,19 @@
+{
+  "name": "YoYoExpert Dark",
+  "about_url": "",
+  "license_url": "",
+  "color_schemes": {
+    "Dark": {
+      "primary": "ffffff",
+      "secondary": "232323",
+      "tertiary": "DF0C18",
+      "quaternary": "DF0C18",
+      "header_background": "232323",
+      "header_primary": "ffffff",
+      "highlight": "6a6a18",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
+  }
+}

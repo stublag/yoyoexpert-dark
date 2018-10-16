@@ -1,0 +1,69 @@
+// Hide the default logo, because it's in the brand header
+
+body:not(.docked) {
+    .d-header .title a {
+        position: relative;
+        img {
+            visibility: hidden;
+        }
+        &:after {
+            content: "Forums";
+            font-family: Roboto;
+            font-weight:bold;
+            display: block;
+            color: $primary;
+            position: absolute;
+            top: 0;
+            font-size: 1.75em;
+        }
+    }
+}
+
+.d-header {
+    border-bottom: 1px solid #3a3a3a;
+    #site-logo {
+        min-width: 100px;
+    }
+}
+
+
+.list-controls .nav-pills>li, .mobile-view .mobile-nav {
+    background: transparent;
+    border: 1px solid $primary;
+    a {
+        padding: 6px 12px;
+
+    }
+}
+
+.mobile-view .mobile-nav.messages-nav,
+.mobile-view .mobile-nav.notifications-nav,
+.mobile-view .mobile-nav.activity-nav,
+.mobile-view .mobile-nav.preferences-nav {
+    top: -59px;
+}
+
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name {
+    font-size: 1.2em;
+}
+
+.b-header {
+    .panel {
+        margin-left: auto;
+    }
+    i.fa.fa-bars.d-icon.d-icon-bars {
+        font-size: 1.5em;
+    }
+    .menu-panel ul.menu-links li a, .menu-panel ul li.heading a {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $primary;
+    }
+    .menu-panel hr {
+        display: none;
+    }
+}
+
+#reply-control .reply-area {
+    border-top: 1px solid #595959;
+}
