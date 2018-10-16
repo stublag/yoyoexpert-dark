@@ -24,11 +24,11 @@ box-shadow: none;
 
 .nav-pills > li.active > a,
 .nav-pills > li > a.active {
-    color: #ffffff;
+    color: $primary;
 }
 
 .nav-pills > li > a:hover {
-    color: #ffffff;
+    color: $primary;
 }
 
 .topic-list>tbody,
@@ -64,13 +64,13 @@ box-shadow: none;
 }
 
 .btn-primary {
-    color: #ffffff;
+    color: $primary;
 }
 .discourse-no-touch .btn-primary:hover,
 .discourse-no-touch .btn-primary.btn-hover,
 .btn-primary:hover {
     color: #232323;
-    background: #ffffff;
+    background: $primary;
 }
 
 .d-editor-button-bar {
@@ -221,11 +221,16 @@ div.poll .poll-buttons {
     border-top-color: #595959;
 }
 
+
+// Inverting danger buttons
+
 .btn-danger,
 nav.post-controls button.delete.d-hover,
 nav.post-controls button.delete:focus {
     color: $primary;
 }
+
+// Last Visit separator
 
 .topic-list .topic-list-item-separator td {
     border-color: $tertiary;
