@@ -221,6 +221,25 @@ div.poll .poll-buttons {
     border-top-color: #595959;
 }
 
+.btn-danger,
+nav.post-controls button.delete.d-hover,
+nav.post-controls button.delete:focus {
+    color: $primary;
+}
+
+// Preferences
+
+.uploaded-image-preview {
+    background: $secondary;
+}
+
+.image-upload-controls .btn {
+    border-color: $primary;
+    i {
+        color: $primary;
+    }
+}
+
 section[data-topic-id="292516"] .toggle-results { display: none }
 section[data-topic-id="292120"] .toggle-results { display: none }
 section[data-topic-id="292307"] .toggle-results { display: none }
