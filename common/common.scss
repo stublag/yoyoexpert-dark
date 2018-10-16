@@ -227,10 +227,18 @@ nav.post-controls button.delete:focus {
     color: $primary;
 }
 
+.topic-list .topic-list-item-separator td {
+    border-color: $tertiary;
+}
+
+.topic-list .topic-list-item-separator td span {
+    color: $tertiary;
+}
+
 // Preferences
 
 .uploaded-image-preview {
-    background: $secondary;
+    background: #333;
 }
 
 .image-upload-controls .btn {
