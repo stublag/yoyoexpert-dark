@@ -217,6 +217,10 @@ div.poll .poll-buttons {
     background: $tertiary;
 }
 
+.timeline-container.timeline-fullscreen {
+    border-top-color: #595959;
+}
+
 section[data-topic-id="292516"] .toggle-results { display: none }
 section[data-topic-id="292120"] .toggle-results { display: none }
 section[data-topic-id="292307"] .toggle-results { display: none }
