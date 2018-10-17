@@ -182,13 +182,14 @@ button.select-kit-header:hover {
                         font-size: 14px;
                     }
                     letter-spacing: 0.75px;
+                    color: $primary;
                     padding: 0;
                     line-height: 1;
                     border-bottom: 2px solid transparent;
                     &:hover {
-                        color: $secondary;
+                        color: $primary;
                         background: transparent;
-                        border-bottom: 2px solid $secondary;
+                        border-bottom: 2px solid $primary;
                     }
                 }
             }
