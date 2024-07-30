@@ -11,14 +11,16 @@
     "Dark Scheme": {
       "primary": "ffffff",
       "secondary": "232323",
-      "tertiary": "DF0C18",
-      "quaternary": "DF0C18",
+      "tertiary": "df0c18",
+      "quaternary": "df0c18",
       "header_background": "232323",
       "header_primary": "ffffff",
       "highlight": "383838",
-      "danger": "DF0C18",
+      "danger": "df0c18",
       "success": "009900",
-      "love": "fa6c8d"
+      "love": "fa6c8d",
+      "selected":  "383838",
+      "hover": "a6a6a6"
     }
   }
 }

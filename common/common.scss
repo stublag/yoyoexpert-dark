@@ -31,10 +31,6 @@ box-shadow: none;
     color: $primary;
 }
 
-.nav-pills > li > a:hover {
-    color: $primary;
-}
-
 .topic-list>tbody,
 .category-list tbody tr:first-of-type,
 .table-heading {
@@ -70,6 +66,7 @@ box-shadow: none;
 .btn-primary {
     color: $primary;
 }
+
 .discourse-no-touch .btn-primary:hover,
 .discourse-no-touch .btn-primary.btn-hover,
 .btn-primary:hover {
@@ -187,8 +184,6 @@ button.select-kit-header:hover {
                     line-height: 1;
                     border-bottom: 2px solid transparent;
                     &:hover {
-                        color: $primary;
-                        background: transparent;
                         border-bottom: 2px solid $primary;
                     }
                 }
